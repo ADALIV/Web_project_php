@@ -1,0 +1,113 @@
+#notice {
+    float: left;
+    border-left: solid 5px #e9b3a3;
+    background-color: #EAEBEE;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 350px;
+    margin-top: 50px;
+    text-align: left;
+}
+#notice > h2 {
+    text-align: center;
+    padding-top: 15px;
+}
+#notice > ul > li {
+    padding-top: 25px;
+    font-size: 1.0em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+    list-style-type: disc;
+}
+#notice > ul > li:first-child {
+    padding-top: 15px;
+}
+#notice a {
+    color: rgb(0, 146, 146);
+}
+
+.mix_list {
+    position: absolute;
+    top: 580px;
+    border-left: solid 5px #e9b3a3;
+    background-color: #EAEBEE;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 440px;
+    text-align: left;
+}
+.mix_list li {
+    padding: 3px;
+}
+.mix_list a {
+    font-size: medium;
+    font-weight: bold;
+    color: rgb(82, 82, 0);
+}
+.mix_list > ul:first-child {
+    padding-top: 25px;
+}
+
+/*테이블*/
+.main_post {
+    display: inline-block;  /*float: left;*/
+    margin-top: 30px;
+    height: 900px;
+}
+.main_post h2 {
+    background-color: #d3d3d3;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+.post_list {
+    border-collapse: collapse;
+    width: 750px;
+    margin: 0rem auto;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.2);
+    background-color: white;
+}
+.post_list img {
+    width: 10px;
+    height: 16px;
+    padding-right: 6px;
+}
+.post_list th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 0.9em;
+}
+.post_list th {
+    background-color: #6fbebe;
+    color: #ffffff;
+    font-size: 1.0em;
+}
+
+/* 테이블 모션 */
+tbody tr:hover {
+    background-color: #d3d3d3;
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+/* 테이블 비율 */
+.post_list th:nth-child(1), td:nth-child(1) {
+    width: 15%;
+}
+.post_list th:nth-child(2), td:nth-child(2) {
+    width: 10%;
+}
+.post_list th:nth-child(3), td:nth-child(3) {
+    width: 45%;
+}
+.post_list th:nth-child(4), td:nth-child(4) {
+    width: 10%;
+}
+.post_list th:nth-child(5), td:nth-child(5) {
+    width: 10%;
+}
+.post_list th:nth-child(6), td:nth-child(6) {
+    width: 10%;
+}

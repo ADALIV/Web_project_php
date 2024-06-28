@@ -1,0 +1,10 @@
+board
+
+alter table board add foreign key (writer_id) references user_info(id) on update cascade on delete cascade;
+//외래 키 추가(업데이트 및 삭제의 경우 따라서 자동 삭제)
+
+select * from board where post_group='연예' order by view_count desc limit 10;
+//조회 수 기준으로 테이블에서 상위 10개 글을 추출
+
+select writer_id, avg(view_count) as avg_view from board group by writer_id having view_count>=100;
+//글쓴이별 전체 작성글 평균 조회수 기준으로 100 넘는 글쓴이 아이디 추출

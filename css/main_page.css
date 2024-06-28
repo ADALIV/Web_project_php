@@ -1,0 +1,121 @@
+a {
+    text-decoration: none;  /* 텍스트 링크 밑줄 없애기 */
+}
+ul {
+    list-style: none;
+}
+body {
+    margin: 0 auto;
+}
+#container {
+    width: 1130px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+}
+
+/*********************************/
+/* 헤더 영역 - 로고와 내비게이션 */
+/*********************************/
+
+header {
+    margin-top: 30px;
+    width: 100%;    /*  너비 */
+    height: 120px;    /* 높이 */
+    background-color: #6fbebe;
+}
+
+/* 로고 */
+#logo img {
+    width: 120px;
+    height: 120px;
+    float: left;    /*이미지 왼쪽에 띄워서 정렬*/
+}
+
+#member {
+    float: right;
+    height: 20px;
+}
+#member > li {
+    float: left;
+    font-weight: 600;  /* 글자 굵기 */
+    font-size: 1.0em;
+    padding-top: 10px;
+    padding-right: 20px;
+}
+#member > li > a {
+    color: #000000;
+}
+#member > li > button {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#search {
+    float: left;
+    margin-top: 70px;
+    margin-left: 20px;
+}
+#search > input {
+    font-weight: 600;  /* 글자 굵기 */
+    font-size: 1.0em;
+    background-color: #d3bebe;
+    color: #141d1f;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+#search > button {
+    display: inline-block;
+    color: #141d1f;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+#top {
+    float: left;
+    margin-top: 18px;
+    margin-left: 8px;
+}
+#top > li {
+    float: left;
+    font-weight: 600;  /* 글자 굵기 */
+    font-size: 22px;
+}
+#top > li > a {
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+}
+
+/* footer */
+
+footer {
+    clear: both;    /*float에 영향 받지 않기 위해*/
+    width: 100%;    /*  너비 */
+    height: 100px;    /* 높이 */
+    border-top: 2px solid #222;
+}
+#bottomMenu {
+    width: 700px;
+    height: 20px;
+}
+#bottomMenu ul {
+    margin-top: 15px;
+}
+#bottomMenu ul li {
+    float: left;  /* 가로로 배치 */
+    padding: 5px 15px;
+    border-right: 1px solid #ddd;  /* 항목 오른쪽에 테두리 */
+}
+#bottomMenu ul li:last-child {
+    border: none;  /* 마지막 항목에는 오른쪽 테두리 없음 */
+}
+#bottomMenu ul li a, #bottomMenu ul li a:visited {
+    font-size: 15px;  /* 글자 크기 */
+    color: #666;  /* 글자 색 */
+}
