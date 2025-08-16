@@ -1,4 +1,4 @@
-<h1>Develop my own community website</h1>
+<h1>Developing my own community website</h1>
 
 <ul>
     <li>HTML</li>
